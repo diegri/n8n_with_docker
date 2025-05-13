@@ -8,7 +8,6 @@ services:
       context: .\n8n_with_docker
       dockerfile: Dockerfile
     container_name: "n8n"
-    #container_name: "n8n"
     restart: always
     networks: ['demo_n8n']
     environment:
